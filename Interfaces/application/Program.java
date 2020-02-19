@@ -45,6 +45,8 @@ public class Program {
 		System.out.println("Tax: " + car.getInvoice().getTax());
 		System.out.println("Total payment: " + car.getInvoice().totalPayment());
 		
+		System.out.println("PAGOU: " + String.format("%.2f", car.getInvoice().totalPayment() +"$ Reais" ));
+		
 		sc.close();
 	}
 
